@@ -1,0 +1,11 @@
+{
+  "name": "celsius-bot",
+  "version": "0.0.1",
+  "description": "discord bot to convert farenheit to celcius",
+  "main": "bot.js",
+  "author": "Xadren",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.2.1"
+  }
+}
