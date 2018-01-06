@@ -13,7 +13,7 @@ bot.on("ready", async => {
     });
 });
 
-bot.on("message", async (message) => {
+bot.on("message", async message => {
     if(message.author.bot) return; // if the author of the message is a bot, do not execute
     if(message.channel.type === "dm") return; // if the channel of the message is a DM do not execute
 
