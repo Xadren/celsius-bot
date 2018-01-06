@@ -4,7 +4,7 @@ const prefix = config.prefix;
 
 const bot = new Discord.Client({disableEveryone: true});
 
-bot.on("ready", async () => {
+bot.on("ready", async => {
     // Generate an invite, and then log it to the console
     bot.generateInvite(["ADMINISTRATOR"]).then(link => {
         console.log(link);
